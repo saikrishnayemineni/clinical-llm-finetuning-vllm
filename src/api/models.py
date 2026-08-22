@@ -21,7 +21,7 @@ class ChatChoice(BaseModel):
 class ChatCompletionResponse(BaseModel):
     id: str
     object: str = "chat.completion"
-    created: int = Field(default_factory=lambda: int(datetime.datetime.utcnow().timestamp()))
+    created: int = Field(default_factory=lambda: int(int(datetime.datetime.now(datetime.timezone.utc).timestamp())))
     model: str
     choices: List[ChatChoice]
     usage: Dict[str, int]
