@@ -1,4 +1,4 @@
-name: CI / Automated LLM Fine-Tuning & vLLM Benchmarks
+name: CI / Automated Tests & Benchmarks
 
 on:
   push:
@@ -24,9 +24,13 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Pytest Test Suite
+      env:
+        PYTHONPATH: .
       run: |
-        pytest tests/ -v --tb=short
+        python -m pytest tests/ -v --tb=short
 
     - name: Run Benchmark Evaluation
+      env:
+        PYTHONPATH: .
       run: |
         python evaluate_finetuning.py
