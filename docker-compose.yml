@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  clinical-llm-vllm:
+    build: .
+    container_name: clinical-llm-vllm
+    ports:
+      - "8000:8000"  # OpenAI Compatible API (/v1/chat/completions)
+      - "8501:8501"  # Streamlit Model Battle Arena
+    environment:
+      - ENVIRONMENT=production
+    restart: unless-stopped

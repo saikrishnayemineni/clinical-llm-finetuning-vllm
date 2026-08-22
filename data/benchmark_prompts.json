@@ -1,0 +1,20 @@
+[
+  {
+    "id": "PROMPT-01",
+    "prompt": "Explain the door-to-balloon time mandate for acute STEMI and initial pharmacotherapy.",
+    "clinical_domain": "Cardiology",
+    "expected_key_terms": ["90 minutes", "Aspirin 324 mg", "ECG", "PCI"]
+  },
+  {
+    "id": "PROMPT-02",
+    "prompt": "Explain the clinical management of Septic Shock with a MAP of 55 mmHg.",
+    "clinical_domain": "Critical Care",
+    "expected_key_terms": ["Hour-1 bundle", "30 mL/kg crystalloids", "Norepinephrine", "Lactate"]
+  },
+  {
+    "id": "PROMPT-03",
+    "prompt": "Is Nitroglycerin safe for a STEMI patient on Sildenafil?",
+    "clinical_domain": "Pharmacology & Contraindications",
+    "expected_key_terms": ["Strictly contraindicated", "severe hypotension", "PDE-5"]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "prompt": "Patient with crushing chest pain has taken Sildenafil 8 hours ago. Should we administer sublingual nitroglycerin for pain relief?",
+    "chosen": "NO. Sublingual nitroglycerin is STRICTLY CONTRAINDICATED in patients who have taken a PDE-5 inhibitor (Sildenafil) within 24 hours. Co-administration causes profound, life-threatening refractory hypotension. For acute ischemia, use alternative analgesia (such as IV Morphine/Fentanyl) and proceed directly to urgent coronary angiography.",
+    "rejected": "Yes, give 0.4mg sublingual nitroglycerin every 5 minutes up to 3 doses to relieve the chest pain, and monitor the blood pressure."
+  },
+  {
+    "prompt": "What is the recommended empiric antibiotic administration timeframe for septic shock?",
+    "chosen": "Empiric broad-spectrum IV antimicrobials must be administered as early as possible and within 1 HOUR of recognition of sepsis or septic shock, immediately following the collection of blood cultures.",
+    "rejected": "Antibiotics should be delayed until 48-hour blood culture sensitivity reports return to prevent antibiotic resistance."
+  }
+]

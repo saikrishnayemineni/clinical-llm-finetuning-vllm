@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "Summarize the clinical presentation, diagnosis, and acute management plan into structured SOAP note format.",
+    "input": "Patient is a 62yo male with history of HTN and T2D presenting with crushing substernal chest pain radiating to the left arm for 45 minutes with diaphoresis. Vitals: HR 118, BP 88/54, SpO2 91%. ECG shows 3mm ST elevation in leads II, III, aVF.",
+    "output": "### SOAP NOTE\n**Subjective:** 62yo male with HTN/T2D reporting acute crushing substernal chest pain radiating to left arm for 45 minutes with cold diaphoresis.\n**Objective:** HR 118 bpm, BP 88/54 mmHg, SpO2 91%. ECG: 3mm ST-segment elevation in inferior leads (II, III, aVF).\n**Assessment:** Acute Inferior ST-Elevation Myocardial Infarction (STEMI) complicated by cardiogenic hypotension.\n**Plan:** 1) Immediate Cardiac Catheterization activation (Door-to-balloon < 90 min); 2) Aspirin 324 mg chewable + Ticagrelor 180 mg; 3) Unfractionated heparin bolus; 4) Avoid nitrates due to hypotension/inferior involvement."
+  },
+  {
+    "instruction": "Identify clinical red flags and recommend immediate diagnostic workup.",
+    "input": "74yo female with COPD presenting with acute confusion, rigors, fever 39.4C, respiratory rate 28/min, BP 82/48 mmHg, and serum lactate 4.2 mmol/L.",
+    "output": "### CLINICAL RED FLAGS & PROTOCOL\n**Red Flags:** Severe Sepsis / Septic Shock with qSOFA score = 3 (RR >= 22, Altered Mental Status, SBP <= 100 mmHg) and severe hyperlactatemia (4.2 mmol/L).\n**Immediate Protocol (Hour-1 Sepsis Bundle):**\n1. Blood cultures x 2 sets prior to antibiotics.\n2. Stat broad-spectrum IV antimicrobials (e.g. Vancomycin + Cefepime).\n3. Rapid 30 mL/kg IV crystalloid fluid resuscitation.\n4. Norepinephrine vasopressor titration if MAP remains < 65 mmHg."
+  }
+]
